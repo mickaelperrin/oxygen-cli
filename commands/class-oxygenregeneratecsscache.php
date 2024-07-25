@@ -52,12 +52,12 @@ class OxygenRegenerateCssCache extends WP_CLI_Command {
       'meta_query' => [
         'relation' => 'OR',
         [
-          'key'     => 'ct_builder_shortcodes',
+          'key'     => '_ct_builder_shortcodes',
           'value'   => '',
           'compare' => '!=',
         ],
         [
-          'key'     => 'ct_builder_json',
+          'key'     => '_ct_builder_json',
           'value'   => '',
           'compare' => '!=',
         ],

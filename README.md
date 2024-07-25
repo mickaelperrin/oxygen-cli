@@ -13,6 +13,10 @@
 5. Activate Plugin in WP Backend
 
 ## Tested Oxygen versions
+
+- 4.8.3
+
+### Versions before 1.2.0
 - 4
 - 3.9
 - 3.8

@@ -33,7 +33,7 @@ class OxygenSignShortcode extends WP_CLI_Command {
 					'numberposts' => -1,
 					'orderby' => 'ID',
 					'order' => 'ASC',
-					'meta_key' => 'ct_builder_shortcodes',
+					'meta_key' => '_ct_builder_shortcodes',
 				)
 			);
 
